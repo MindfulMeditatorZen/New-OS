@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NexuSystem.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .navbar-brand{
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      .nav-link{
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .nav-link:hover{
+        color: gray;
+      }
+
+      .hero{
+        background: url(images/name5.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+      }
+      .feature-content{
+        margin-top: 20%;
+        justify-content: center;
+        text-align: center;
+      }
+      .feature-content h1{
+        color: #333;
+        font-size: 3rem;
+      }
+      .feature-content p{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .try{
+        font-weight: bold;
+        text-decoration: none;
+      }
+      .try:hover{
+        text-decoration: underline;
+      }
+
+      .section{
+        margin-top: 30px;
+      }
+      .small{
+        margin-top: 30px;
+        height: 40vh;
+        background: #F1F1F1;
+      }
+      .slim{
+        padding: 3rem;
+      }
+
+      footer{
+        background: #EDF4F2;
+      }
+      .stable{
+        padding: 2rem;
+      }
+      .stable span{
+        font-weight: bold;
+      }
+      .stable a{
+        display: block;
+        color: gray;
+        text-decoration: none;
+        margin-bottom: 15px;
+      }
+      .stable a:hover{
+        text-decoration: underline;
+      }
+      .apple a{
+        color: gray;
+        text-decoration: none;
+        margin-right: 15px;
+        font-size: 20px
+      }
+      .apple a:hover{
+        text-decoration: underline;
+      }
+      
+    </style>
+
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">NexuSystem</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nexu365</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NexuAI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="container">
+          <div class="lift-row row">
+              <div class="feature-content">
+                <h1>Achieve the extraordinary</h1>
+                <p>With Nexus 365, get spacious cloud storage, advanced security for your data and devices, and powerful productivity and creativity apps with AI,1 all in one plan.</p>
+                <button class="btn1 btn btn-primary">Buy now</button>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="menu container-fluid padding mt-3">
+        <div class="row welcome text-center">
+          <div class="col-12">
+            <h1 class="men display-4">Our Plans</h1>
+          </div>
+        </div>
+      </div>
+
+       <!-- Cards -->
+        <div class="container-fluid padding">
+          <div class="ana-row row padding">
+            <div class="col-md-6 col-sm-12 my-4">
+              <div class="card supe-r shadow border-0">
+                <div class="sleepy p-4">
+                  <h4 class="card-title">Microsoft 365 Family <br>
+                    $129.99/year</h4>
+                 <ul>
+                  <li>For one to six people</li>
+                  <li>Up to 6 TB of secure cloud storage (1 TB per person)</li>
+                  <li>Productivity apps with Microsoft CopilotFootnote1</li>
+                  <li>Data and device security</li>
+                  <li>Ad-free secure email</li>
+                  <li>Up to 6 TB of secure cloud storage (1 TB per person)</li>
+                 </ul>
+                 <button class="btn1 btn btn-primary padding">Buy now</button>
+                 <br>
+                 <a href="#" class="try">Try free for 1 month</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 my-4">
+              <div class="card supe-r shadow border-0">
+                <div class="sleepy p-4">
+                  <h4 class="card-title">Microsoft 365 Personal <br>
+                    $99.99/year</h4>
+                 <ul>
+                  <li>For one person</li>
+                  <li>Sign in to five devices at once</li>
+                  <li>Use on PCs, Macs, phones, and tablets</li>
+                  <li>1 TB of secure cloud storage</li>
+                  <li>Productivity apps with Microsoft CopilotFootnote1</li>
+                  <li>Data and device security</li>
+                 </ul>
+                 <button class="btn1 btn btn-primary padding">Buy now</button>
+                 <br>
+                 <a href="#" class="try">Try free for 1 month</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 my-4">
+              <div class="card supe-r shadow border-0">
+                <div class="sleepy p-4">
+                  <h4 class="card-title">Microsoft 365 Family <br>
+                    $12.99/month</h4>
+                 <ul>
+                  <li>For one to six people</li>
+                  <li>Up to 6 TB of secure cloud storage (1 TB per person)</li>
+                  <li>Productivity apps with Microsoft CopilotFootnote1</li>
+                  <li>Data and device security</li>
+                  <li>Ad-free secure email</li>
+                  <li>Up to 6 TB of secure cloud storage (1 TB per person)</li>
+                 </ul>
+                 <button class="btn1 btn btn-primary padding">Buy now</button>
+                 <br>
+                 <a href="#" class="try">Try free for 1 month</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 my-4">
+              <div class="card supe-r shadow border-0">
+                <div class="sleepy p-4">
+                  <h4 class="card-title">Microsoft 365 Personal <br>
+                    $9.99/month</h4>
+                 <ul>
+                  <li>For one to six people</li>
+                  <li>Up to 6 TB of secure cloud storage (1 TB per person)</li>
+                  <li>Productivity apps with Microsoft CopilotFootnote1</li>
+                  <li>Data and device security</li>
+                  <li>Ad-free secure email</li>
+                  <li>Up to 6 TB of secure cloud storage (1 TB per person)</li>
+                 </ul>
+                 <button class="btn1 btn btn-primary padding">Buy now</button>
+                 <br>
+                 <a href="#" class="try">Try free for 1 month</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="zip">
+            <p class="subscribe text-center">Subscription continues to be charged unless cancelled in Microsoft account.</p>
+            <p class="text-center">Already have a subscription? <a href="#">Renew now</a></p>
+          </div>
+        </div>
+
+        <section class="section">
+          <div class="menu container-fluid padding mt-3">
+            <div class="row welcome text-center">
+              <div class="col-12">
+                <h1 class="men display-4">Explore even more benefits of Microsoft 365 </h1>
+              </div>
+
+              <div class="col-md-4 col-sm-12 my-4">
+                <div class="card supe-r border-0">
+                  <div class="sleepy p-4">
+                    <h4 class="card-title">Simplify your online security</h4>
+                    <p>Keep you and your family safer online with continuous monitoring for threats, real-time alerts, tips, and expert guidance from Microsoft Defender.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-12 my-4">
+                <div class="card supe-r border-0">
+                  <div class="sleepy p-4">
+                    <h4 class="card-title">Powerful productivity apps with AI</h4>
+                    <p>Use Word, Excel, and PowerPoint to collaborate in real time or work offline, now with Microsoft Copilot.Footnote1</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-12 my-4">
+                <div class="card supe-r border-0">
+                  <div class="sleepy p-4">
+                    <h4 class="card-title">Trusted storage for priceless memories</h4>
+                    <p>Quickly save, share, and edit your photos and files with OneDrive and Microsoft 365.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-12 my-4">
+                <div class="card supe-r border-0">
+                  <div class="sleepy p-4">
+                    <h4 class="card-title">Make the most of your day</h4>
+                    <p>With Outlook as command central, you can spend less time organizing your life and more time enjoying it.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-12 my-4">
+                <div class="card supe-r border-0">
+                  <div class="sleepy p-4">
+                    <h4 class="card-title">All your ideas in one place</h4>
+                    <p>Capture inspiration in text, audio, photos, and videos to create your next big idea with OneNote.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-12 my-4">
+                <div class="card supe-r border-0">
+                  <div class="sleepy p-4">
+                    <h4 class="card-title">Tell your story, your way</h4>
+                    <p>Easily turn captured memories into beautiful videos with Clipchamp and Microsoft 365.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </section>
+
+        <!-- <section class="small">
+          <div class="container">
+            <div class="slim row col-6">
+              <h1 class="office">Office Home & Business 2024</h1>
+              <ul>
+                <li>One-time purchase for 1 PC or Mac</li>
+                <li>Classic 2024 desktop versions of Word, Excel, PowerPoint, Outlook, and OneNote</li>
+                <li>Access to support resources </li>
+               </ul>
+               <button class="btn btn-primary">Buy now</button>
+               <a href="#" class="try">Learn More</a>
+            </div>
+          </div>
+        </section> -->
+
+
+
+        <div class="menu container-fluid padding mt-5">
+          <div class="row welcome text-center">
+            <div class="col-12">
+              <h1 class="men display-4">Frequently Asked Questions</h1>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion p-4" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What’s the difference between Office 2024 (one-time purchase) and Nexus 365 (subscription)?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Office 2024 is sold as a one-time purchase, which means you pay a single, up-front cost to get Office apps for one computer. One-time purchases are available for both PCs and Macs. However, there are no upgrade options, which means if you plan to upgrade to the next major release, you'll have to buy it at full price.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How do I know if my PC or Mac can run Microsoft 365?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Nexus 365 is compatible with PC, Mac, Android, and iOS. See system requirements for compatible versions of your devices, and for other feature requirements.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Will Microsoft 365 be identical on a PC and on a Mac?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                No. Microsoft 365’s applications are tailored for each platform and each operating system. The applications available for Mac users and the specific features included may be different from those available for PC users. With Microsoft 365, you can be flexible. With your account, you are not limited to exclusively Mac or exclusively PC, so you can transition across devices.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Do I keep control of my documents with a Microsoft 365 subscription?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Yes. Documents that you have created belong fully to you. You can choose to store them online on OneDrive or locally on your PC or Mac.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Is internet access required for Microsoft 365?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Internet access is required to install and activate all the latest releases of apps and services included in all Microsoft 365 subscription plans. Note that if you are an existing subscriber, you do not need to reinstall or purchase another subscription.
+
+                For Microsoft 365 plans, Internet access is also needed to manage your subscription account, for example to install Office apps on other PCs or to change billing options. Internet access is also required to access documents stored on OneDrive, unless you install the OneDrive desktop app.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                What is a Microsoft account and why do I need it for Microsoft 365?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Your Microsoft account is the combination of an email address and password that you use to sign in to services like OneDrive, Xbox LIVE, and Outlook.com. If you use any of these services, you already have a Microsoft account that you can use or you can create a new account. Learn more about a Microsoft account.
+
+                As part of signing up for a trial or purchasing Microsoft 365, you will be prompted to sign in with a Microsoft account. You must be signed in with this account to install and manage your Microsoft 365 subscription, or to use some subscription benefits, including cloud storage.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                How many people can use a Microsoft 365 subscription?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                You can share Microsoft 365 Family with five other people, for a total of six users. Microsoft 365 Personal can be used by one person.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <footer class="mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="stable col-2 col-lg-2 col-md-4 col-sm-6">
+                <span>What’s new</span>
+                <a href="#">Surface Book 3</a>
+                <a href="#">Surface Pro</a>
+                <a href="#">Nexus Copilot</a>
+                <a href="#">Nexus 365</a>
+                <a href="#">Nexus Apps</a>
+              </div>
+
+              <div class="stable col-2 col-lg-2 col-md-4 col-sm-6">
+                <span>Microsoft Store</span>
+                <a href="#">Account profile</a>
+                <a href="#">Download center</a>
+                <a href="#">Nexus Support</a>
+                <a href="#">Extended holiday returns</a>
+                <a href="#">Order Tracking</a>
+                <a href="#">Support</a>
+              </div>
+
+              <div class="stable col-2 col-lg-2 col-md-4 col-sm-6">
+                <span>Education</span>
+                <a href="#">Nexus in education</a>
+                <a href="#">Devices for education</a>
+                <a href="#">Nexus Teams for Education</a>
+                <a href="#">Nexus 365 Education</a>
+                <a href="#">Office Education</a>
+                <a href="#">Educator training and development</a>
+                <a href="#">Azure for students</a>
+              </div>
+
+              <div class="stable col-2 col-lg-2 col-md-4 col-sm-6">
+                <span>Business</span>
+                <a href="#">Nexus Cloud</a>
+                <a href="#">Nexus Security</a>
+                <a href="#">Azure</a>
+                <a href="#">Nexus 365</a>
+                <a href="#">Nexus Teams</a>
+                <a href="#">Nexus 365 Copilot</a>
+                <a href="#">Nexus Advertising</a>
+              </div>
+
+              <div class="stable col-2 col-lg-2 col-md-4 col-sm-6">
+                <span>Developer & IT</span>
+                <a href="#">Nexus Developer</a>
+                <a href="#">Documentation</a>
+                <a href="#">Nexus Learn</a>
+                <a href="#">Nexus Tech Community</a>
+                <a href="#">Nexus Power Platform</a>
+              </div>
+
+              <div class="stable col-2 col-lg-2 col-md-4 col-sm-6">
+                <span>Company</span>
+                <a href="#">Careers</a>
+                <a href="#">About nexus</a>
+                <a href="#">Company News</a>
+                <a href="#">Privacy at Nexus</a>
+                <a href="#">Investors</a>
+                <a href="#">Accessibility</a>
+              </div>
+              <hr>
+            </div>
+            <div class="apple text-center">
+              <a href="#">Privacy Policy</a>
+              <a href="#">Facebook</a>
+              <a href="#">Instagram</a>
+              <a href="#">Terms of use</a>
+              <a href="#">Contact Nexus</a>
+              <a href="#">YouTube</a>
+            </div>
+          </div>
+        </footer>
+  
+            
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
